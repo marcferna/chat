@@ -7,10 +7,7 @@ $(function() {
   		dataType:"json", 
   		success:
   			function (data, textStatus) {
-  				var message = $("<div>");
-  				message.addClass("chat_message").val("message", data.Message.id);
-  				message.html("<b>" + data.Message.user + ":</b> " + data.Message.message);
-  				$("#messages-appended").append(message);
+          addMessage(data.Message, $("#messages-appended"));
   				$("#MessageMessage").val(''); //Empty the message text area
   			}, 
   		type:"post", 
@@ -24,22 +21,30 @@ $(function() {
 });
 
 function refresh(){
+  var messages_appended = $("#messages-appended");
+  var current_last_message = messages_appended.attr("last-database-message");
+  var room_id = $("#MessageRoomId").val();
+
 	$.ajax({
   		dataType:"json", 
   		success:
   			function (data, textStatus) {
-  				//$("#messages-appended").attr("last-database-message", data.last_message).empty();
-  				$(data.messages).each(function(index) {
-				    console.log(this);
-				});
-  				/*var message = $("<div>");
-  				message.addClass("chat_message").val("message", data.Message.id);
-  				message.html("<b>" + data.Message.user + ":</b> " + data.Message.message);
-  				$("#messages-database").append(message);*/
+          if(data.last_message != current_last_message){
+            messages_appended.attr("last-database-message", data.last_message).empty();
+            $(data.messages).each(function(index) {
+              addMessage(this.Message, $("#messages-database"));
+            });
+          }
   			}, 
   		type:"get", 
-  		url:"\/chat\/messages\/get_latest_messages\/" + $("#messages-appended").attr("last-database-message")}
-  	);
-	console.log("hello");
+  		url:"\/chat\/messages\/get_latest_messages\/" + current_last_message + "\/" + room_id
+  	});
 	setTimeout( "refresh()", REFRESH_TIME );
+}
+
+function addMessage (message, div){
+  var message_div = $("<div>");
+  message_div.addClass("chat_message").val("message", message.id);
+  message_div.html("<b>" + message.created + " " + message.user + ":</b> " + message.message);
+  div.append(message_div);
 }
