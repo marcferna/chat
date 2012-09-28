@@ -13,8 +13,8 @@ class RoomsController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Room->recursive = 0;
-		$this->set('rooms', $this->paginate());
+		$this->Room->recursive = 1;
+		$this->set('rooms', $this->Room->find('all'));
 	}
 
 /**
@@ -30,5 +30,6 @@ class RoomsController extends AppController {
 			throw new NotFoundException(__('Invalid room'));
 		}
 		$this->set('room', $this->Room->read(null, $id));
+		$this->set('rooms', $this->Room->find('all', array("recursive" => 0)));
 	}
 }
