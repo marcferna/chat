@@ -1,0 +1,684 @@
+2012-09-26 21:04:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:04:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:05:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:05:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:06:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:06:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:08:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:08:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:08:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:08:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:44:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-26 21:50:41 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/View/Messages/index.ctp, line 32]
+2012-09-26 21:50:41 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 32, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 32, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 21:51:22 Error: [MissingActionException] Action MessagesController::delete() could not be found.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-26 21:56:09 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/View/Messages/index.ctp, line 35]
+2012-09-26 21:56:09 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 35, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 35, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 21:56:37 Error: Fatal Error (1): Call to a member function isAjax() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 28]
+2012-09-26 21:56:37 Error: [FatalErrorException] Call to a member function isAjax() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 28, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 28, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 22:01:58 Error: Fatal Error (1): Call to a member function isAjax() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-26 22:01:58 Error: [FatalErrorException] Call to a member function isAjax() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 22:04:22 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 32]
+2012-09-26 22:04:22 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 32, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 32, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 22:50:19 Error: Fatal Error (1): Call to a member function format() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 34]
+2012-09-26 22:50:19 Error: [FatalErrorException] Call to a member function format() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 34, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 34, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 22:52:07 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 32]
+2012-09-26 22:52:07 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 32, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 32, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 22:55:33 Error: Fatal Error (1): Call to a member function format() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 34]
+2012-09-26 22:55:33 Error: [FatalErrorException] Call to a member function format() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 34, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 34, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:29:31 Error: Fatal Error (1): Unsupported operand types in [/home/mfernandez/www/test/chat/app/View/Messages/index.ctp, line 12]
+2012-09-26 23:29:31 Error: [FatalErrorException] Unsupported operand types
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/home/mfernande...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/home/mfernande...', 12, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/home/mfernande...', 12, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:37:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 46]
+2012-09-26 23:37:30 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 46, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 46, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:28 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:31 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:31 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:34 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:37 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:37 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:40 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:40 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:43 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:43 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:46 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:46 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:49 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:49 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:52 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-26 23:43:55 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 49]
+2012-09-26 23:43:55 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 49, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 17:55:53 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:55:57 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:00 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:03 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:06 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:09 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:12 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:15 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:18 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:21 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:24 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:27 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:30 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:33 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:36 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 17:56:39 Error: [MissingViewException] View file "/home/mfernandez/www/test/chat/app/View/Messages/get_latest_messages.ctp" is missing.
+#0 /home/mfernandez/www/test/chat/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 19:15:50 Error: [MissingControllerException] Controller class RomsController could not be found.
+#0 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-27 19:16:19 Error: [MissingActionException] Action RoomsController::1() could not be found.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-27 19:26:32 Error: [NotFoundException] Invalid room
+#0 [internal function]: RoomsController->view('2')
+#1 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(RoomsController), Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(RoomsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-27 19:59:12 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 19:59:12 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 19:59:58 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 19:59:58 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 19:59:59 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 19:59:59 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:00:00 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:00:00 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:00:00 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:00:00 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:00:00 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:00:00 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:00:02 Error: Fatal Error (1): Call to a member function niceShort() on a non-object in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:00:02 Error: [FatalErrorException] Call to a member function niceShort() on a non-object
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:00:55 Error: Fatal Error (1): Class 'CakeTime' not found in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:00:55 Error: [FatalErrorException] Class 'CakeTime' not found
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'CakeTime...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeTime...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeTime...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:01:18 Error: Fatal Error (1): Class 'CakeTime' not found in [/home/mfernandez/www/test/chat/app/Controller/MessagesController.php, line 30]
+2012-09-27 20:01:18 Error: [FatalErrorException] Class 'CakeTime' not found
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'CakeTime...', '/home/mfernande...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeTime...', '/home/mfernande...', 30, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeTime...', '/home/mfernande...', 30, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:20:48 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mfernandez/www/test/chat/app/View/Rooms/view.ctp, line 11]
+2012-09-27 20:20:48 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 11, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 11, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:22:51 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/mfernandez/www/test/chat/app/View/Rooms/view.ctp, line 13]
+2012-09-27 20:22:51 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:22:56 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/mfernandez/www/test/chat/app/View/Rooms/view.ctp, line 13]
+2012-09-27 20:22:56 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 20:22:57 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/mfernandez/www/test/chat/app/View/Rooms/view.ctp, line 13]
+2012-09-27 20:22:57 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/mfernandez/www/test/chat/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mfernande...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mfernande...', 13, Array)
+#3 /home/mfernandez/www/test/chat/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-27 21:17:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:17:59 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:00 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-09-27 21:18:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /home/mfernandez/www/test/chat/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /home/mfernandez/www/test/chat/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(3179): Model->setSource('messages')
+#5 /home/mfernandez/www/test/chat/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /home/mfernandez/www/test/chat/app/Controller/MessagesController.php(39): Model->find('all', Array)
+#7 [internal function]: MessagesController->get_latest_messages('10', '1')
+#8 /home/mfernandez/www/test/chat/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mfernandez/www/test/chat/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/mfernandez/www/test/chat/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
