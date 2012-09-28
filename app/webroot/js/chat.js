@@ -11,7 +11,7 @@ $(function() {
   				$("#MessageMessage").val(''); //Empty the message text area
   			}, 
   		type:"post", 
-  		url:"\/chat\/messages\/add"}
+  		url:"\/messages\/add"}
   	);
 	return false; //Avoids the form submit
   });
@@ -37,7 +37,7 @@ function refresh(){
           }
   			}, 
   		type:"get", 
-  		url:"\/chat\/messages\/get_latest_messages\/" + current_last_message + "\/" + room_id
+  		url:"\/messages\/get_latest_messages\/" + current_last_message + "\/" + room_id
   	});
 	setTimeout( "refresh()", REFRESH_TIME );
 }
